@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+            android:fromDegrees="3600">
+
+	<item>
+		<rotate
+				android:fromDegrees="3600">
+
+			<shape
+			       android:innerRadiusRatio="1.5"
+			       android:shape="ring"
+			       android:thickness="1dp">
+
+				<!--<solid android:color="#ff614a"/>-->
+				<!--<stroke android:color="@color/colorAccent"-->
+				<!--android:dashWidth="5dp"-->
+				<!--android:dashGap="20dp"-->
+				<!--android:width="1dp"/>-->
+
+				<gradient android:startColor="#b42519"
+				          android:endColor="#2c27ae"
+				          android:angle="-90"
+				android:type="sweep"
+				android:gradientRadius="6dp"/>
+			</shape>
+		</rotate>
+
+	</item>
+
+
+	<!--<item>-->
+	<!--<rotate-->
+	<!--android:toDegrees="3600">-->
+
+	<!--<shape xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+	<!--android:useLevel="true"-->
+	<!--android:innerRadiusRatio="2.8"-->
+	<!--android:shape="ring"-->
+	<!--android:thickness="1dp">-->
+
+	<!--<solid android:color="#76524d"/>-->
+	<!--&lt;!&ndash;<stroke android:color="@color/colorAccent"&ndash;&gt;-->
+	<!--&lt;!&ndash;android:dashWidth="5dp"&ndash;&gt;-->
+	<!--&lt;!&ndash;android:dashGap="20dp"&ndash;&gt;-->
+	<!--&lt;!&ndash;android:width="1dp"/>&ndash;&gt;-->
+
+	<!--</shape>-->
+	<!--</rotate>-->
+
+	<!--</item>-->
+
+</layer-list>
+
+		<!--android:useLevel="true"-->

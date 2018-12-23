@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromDegrees="3600"
+>
+
+	<item >
+		<rotate
+				android:toDegrees="360"
+				android:fromDegrees="0">
+
+			<shape xmlns:android="http://schemas.android.com/apk/res/android"
+
+			       android:useLevel="true"
+			       android:innerRadiusRatio="2.5"
+			       android:shape="ring"
+			       android:thickness="1dp">
+
+				<stroke android:color="@color/colorAccent"
+				        android:dashWidth="5dp"
+				        android:dashGap="10dp"
+				        android:width="1dp"/>
+
+			</shape>
+		</rotate>
+
+	</item>
+
+
+</layer-list>
